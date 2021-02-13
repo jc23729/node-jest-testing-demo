@@ -6,7 +6,8 @@ describe('square function', function () {
     const res = square(3)
     expect(res).toEqual(9)
   })
-
+//you call function by writing test('string describing what your testing', function(){
+ // const, and what you expect back})
   test('square should square negative numbers', function () {
     const num = square(-9);
     expect(num).toEqual(81)
