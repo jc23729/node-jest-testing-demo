@@ -1,5 +1,6 @@
+//you call back the square function from square.js file
 const { square, cube } = require('./square');
-
+//to run your test just make sure your in the test file and just type jest in terminal
 describe('square function', function () {
   test('square should square a number', function () {
     const res = square(3)
