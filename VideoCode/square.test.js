@@ -13,7 +13,7 @@ describe('square function', function () {
     expect(num).toEqual(81)
   })
 })
-
+//describe lets you group tests together
 describe('cube function', function () {
   test('should cube a positive number', function () {
     const num = cube(3);
